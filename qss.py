@@ -19,6 +19,11 @@ def orig_encode(qubit):
     qubit_b = 3
     qubit_c = 1
     qubit_d = 0
+
+    # qubit_a = QubitPlaceholder()
+    # qubit_b = QubitPlaceholder()
+    # qubit_c = QubitPlaceholder()
+    # qubit_d = QubitPlaceholder()
     
     pi_rot = np.array([[-1.0, 0], [0, -1.0]])
     pi_rot_def = DefGate("PI-ROT", pi_rot)
